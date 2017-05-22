@@ -22,8 +22,7 @@
       "type": "vcs",
       "url": "https://github.com/menadwork/portable-utf8"
     },
-    "repositories": {
-      "stop-words": {
+    "stop-words": {
       "type": "vcs",
       "url": "https://github.com/menadwork/stop-words"
     }
