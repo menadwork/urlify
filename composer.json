@@ -17,10 +17,21 @@
       "homepage": "http://moelleken.org/"
     }
   ],
+  "repositories": {
+      "portable-utf8": {
+      "type": "vcs",
+      "url": "https://github.com/menadwork/portable-utf8"
+    },
+    "repositories": {
+      "stop-words": {
+      "type": "vcs",
+      "url": "https://github.com/menadwork/stop-words"
+    }
+  },
   "require": {
     "php": ">=5.3",
-    "voku/portable-utf8": "~3.1",
-    "voku/stop-words": "~1.1"
+    "portable-utf8": "~3.1",
+    "stop-words": "~1.1"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0|~5.0"
